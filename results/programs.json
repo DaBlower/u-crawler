@@ -1,1 +1,216 @@
-[]
+{
+    "Architecture and Building": [
+        {
+            "category": "Architecture and Building",
+            "code": "3261",
+            "credits": "144 UOC",
+            "title": "Architectural Studies",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3261"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "4521",
+            "credits": "48 UOC",
+            "title": "Architectural Studies (Honours)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4521"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "7006",
+            "credits": "48 UOC",
+            "title": "Architecture",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/7006"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "3362",
+            "credits": "192 UOC",
+            "title": "City Planning (Honours)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3362"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "4523",
+            "credits": "48 UOC",
+            "title": "Computational Design (Honours)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4523"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "3332",
+            "credits": "144 UOC",
+            "title": "Construction Management and Property",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3332"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "4522",
+            "credits": "48 UOC",
+            "title": "Construction Management and Property (Honours)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4522"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "4525",
+            "credits": "48 UOC",
+            "title": "Industrial Design (Honours)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4525"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "3256",
+            "credits": "192 UOC",
+            "title": "Interior Architecture (Honours)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3256"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "3381",
+            "credits": "192 UOC",
+            "title": "Landscape Architecture (Hons)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3381"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "ARCH0006",
+            "credits": "6 UOC",
+            "title": "Special Program (Architecture)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARCH0006"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "ARCH1080",
+            "credits": "6 UOC",
+            "title": "Introduction to Architecture and Enabling Skills",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARCH1080"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "ARCH1101",
+            "credits": "6 UOC",
+            "title": "Architectural Design Studio 1",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARCH1101"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "ARCH1102",
+            "credits": "6 UOC",
+            "title": "Architectural Design Studio 2",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARCH1102"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "ARCH1162",
+            "credits": "6 UOC",
+            "title": "Construction and Structures 1",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARCH1162"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "ARCH1201",
+            "credits": "6 UOC",
+            "title": "Architectural Design Studio 3",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARCH1201"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "ARCH1203",
+            "credits": "12 UOC",
+            "title": "Architectural Design Studio 4",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARCH1203"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "ARCH1222",
+            "credits": "6 UOC",
+            "title": "Architectural History and Theory 2",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARCH1222"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "ARCH1261",
+            "credits": "6 UOC",
+            "title": "Construction and Structures 2",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARCH1261"
+        },
+        {
+            "category": "Architecture and Building",
+            "code": "ARCH1302",
+            "credits": "12 UOC",
+            "title": "Architectural Design Studio 6",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARCH1302"
+        }
+    ],
+    "Business and Management": [
+        {
+            "category": "Business and Management",
+            "code": "ACCT2101",
+            "credits": "12 UOC",
+            "title": "Industry Placement 1",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACCT2101"
+        },
+        {
+            "category": "Business and Management",
+            "code": "ACCT2511",
+            "credits": "6 UOC",
+            "title": "Financial Accounting Fundamentals",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACCT2511"
+        },
+        {
+            "category": "Business and Management",
+            "code": "ACCT2522",
+            "credits": "6 UOC",
+            "title": "Management Accounting for Decision Analysis",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACCT2522"
+        },
+        {
+            "category": "Business and Management",
+            "code": "ACCT2542",
+            "credits": "6 UOC",
+            "title": "Corporate Financial Reporting and Analysis",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACCT2542"
+        },
+        {
+            "category": "Business and Management",
+            "code": "ACCT2562",
+            "credits": "6 UOC",
+            "title": "ESG: Current Developments for Sustainable Business",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACCT2562"
+        },
+        {
+            "category": "Business and Management",
+            "code": "ACCT3202",
+            "credits": "6 UOC",
+            "title": "Industry Placement 2",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACCT3202"
+        },
+        {
+            "category": "Business and Management",
+            "code": "ACCT3303",
+            "credits": "6 UOC",
+            "title": "Industry Placement 3",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACCT3303"
+        },
+        {
+            "category": "Business and Management",
+            "code": "ACCT3563",
+            "credits": "6 UOC",
+            "title": "Issues in Financial Reporting and Analysis",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACCT3563"
+        },
+        {
+            "category": "Business and Management",
+            "code": "ACCT3583",
+            "credits": "6 UOC",
+            "title": "Strategic Value Management",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACCT3583"
+        },
+        {
+            "category": "Business and Management",
+            "code": "ACCT3601",
+            "credits": "6 UOC",
+            "title": "Global Financial Reporting and Analysis",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACCT3601"
+        }
+    ]
+}
