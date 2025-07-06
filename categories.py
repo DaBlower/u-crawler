@@ -2,7 +2,9 @@
 
 import requests
 import json
+import logging
 from bs4 import BeautifulSoup
+from urllib.robotparser import RobotFileParser
 import random
 import os
 
@@ -12,30 +14,38 @@ url = 'https://www.handbook.unsw.edu.au/'
 # set headers
 headers = {'User-Agent': 'Mozilla/5.0'}
 
-# send request
-response = requests.get(url, headers=headers)
+# check robots.txt
+rp = RobotFileParser()
+rp.set_url(url.rstrip("/") + "/robots.txt")
+rp.read()
 
-# parse HTML
-soup = BeautifulSoup(response.text, 'html.parser')
+if (rp.can_fetch(headers['User-Agent'], url)):
+    # send request
+    response = requests.get(url, headers=headers)
 
-# find all areas of interest
-tiles = soup.find_all(class_='css-1tqr8qw-Tile--STileItem-Tile--STile e1mix0ja3')
+    # parse HTML
+    soup = BeautifulSoup(response.text, 'html.parser')
 
-categories = []
+    # find all areas of interest
+    tiles = soup.find_all(class_='css-1tqr8qw-Tile--STileItem-Tile--STile e1mix0ja3')
 
-for tile in tiles:
-    name = tile.find('h4').get_text(strip="True")
-    relative_url = tile.a['href']
-    encoded_relative_url = requests.utils.quote(relative_url)
-    full_url = f"{url.rstrip('/')}{encoded_relative_url}"
-    categories.append({'name': name, 'url': full_url})
-    delay = random.uniform(1,3)
+    categories = []
 
-# make results directory if it doesn't already exist
-os.makedirs('results', exist_ok=True)
+    for tile in tiles:
+        name = tile.find('h4').get_text(strip="True")
+        relative_url = tile.a['href']
+        encoded_relative_url = requests.utils.quote(relative_url)
+        full_url = f"{url.rstrip('/')}{encoded_relative_url}"
+        categories.append({'name': name, 'url': full_url})
+        delay = random.uniform(1,3)
 
-# save output
-output_path = 'results/categories.json'
+    # make results directory if it doesn't already exist
+    os.makedirs('results', exist_ok=True)
 
-with open(output_path, 'w', encoding='utf-8') as file:
-    json.dump(categories, file, ensure_ascii=False, indent=4)
+    # save output
+    output_path = 'results/categories.json'
+
+    with open(output_path, 'w', encoding='utf-8') as file:
+        json.dump(categories, file, ensure_ascii=False, indent=4)
+else:
+    print("Cannot parse due to robots.txt restriction")
