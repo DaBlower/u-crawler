@@ -4,6 +4,7 @@ import requests
 import json
 from bs4 import BeautifulSoup
 import random
+import os
 
 # target url
 url = 'https://www.handbook.unsw.edu.au/'
@@ -25,9 +26,13 @@ categories = []
 for tile in tiles:
     name = tile.find('h4').get_text(strip="True")
     relative_url = tile.a['href']
-    full_url = f'{requests.utils.quote(url.rstrip('/')+relative_url)}'
+    encoded_relative_url = requests.utils.quote(relative_url)
+    full_url = f"{url.rstrip('/')}{encoded_relative_url}"
     categories.append({'name': name, 'url': full_url})
     delay = random.uniform(1,3)
+
+# make results directory if it doesn't already exist
+os.makedirs('results', exist_ok=True)
 
 # save output
 output_path = 'results/categories.json'
