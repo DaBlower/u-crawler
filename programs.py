@@ -9,8 +9,16 @@ from selenium.webdriver.support import expected_conditions as EC
 from pathlib import Path
 from urllib.robotparser import RobotFileParser
 import random
+import logging
 import time
+import os
 
+os.makedirs("logs", exist_ok=True)
+logging.basicConfig(
+    filename="logs/crawl.log",
+    level=logging.DEBUG,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
 # selenium options
 options = Options()
 options.add_argument("--headless=new")
@@ -41,6 +49,7 @@ for category in categories:
     rp.read()
 
     if (rp.can_fetch(headers['User-Agent'], url)):
+        logging.debug(f"Scraping of {url} permitted under Robots.txt")
         driver = webdriver.Chrome(options=options)
         driver.get(url)
 
@@ -78,6 +87,7 @@ for category in categories:
         print(f"Scraped {name}, waiting {delay:.2f} seconds")
         time.sleep(delay)
     else:
+        logging.debug(f"Skipped {url} due to robots.txt restrictions")
         print(f"Skipped {name} due to robots.txt restrictions")
 
 output_dir = Path("results/programs/2025")
@@ -95,3 +105,4 @@ for category, programs in all_programs.items():
     
     with open(file_path, 'w', encoding="utf-8") as file:
         json.dump(programs, file, ensure_ascii=False, indent=4)
+logging.debug('Successfully scraped programs')
