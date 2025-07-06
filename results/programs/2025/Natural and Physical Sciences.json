@@ -1,0 +1,142 @@
+[
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "SOMSEH",
+        "credits": "48 UOC",
+        "title": "Anatomy",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/SOMSEH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "MATHAH",
+        "credits": "48 UOC",
+        "title": "Applied Mathematics",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MATHAH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "BABSBH",
+        "credits": "48 UOC",
+        "title": "Bioinformatics",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/BABSBH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "BIOSKH",
+        "credits": "48 UOC",
+        "title": "Biology",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/BIOSKH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "BIOTBH",
+        "credits": "48 UOC",
+        "title": "Biotechnology",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/BIOTBH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "ZPEMAH",
+        "credits": "48 UOC",
+        "title": "Chemistry",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/ZPEMAH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "CHEMFH",
+        "credits": "48 UOC",
+        "title": "Chemistry",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/CHEMFH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "BIOSLH",
+        "credits": "48 UOC",
+        "title": "Ecology",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/BIOSLH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "ENVSUH",
+        "credits": "48 UOC",
+        "title": "Environmental Management",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/ENVSUH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "FOODKH",
+        "credits": "180 UOC",
+        "title": "Food Science and Nutrition",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/FOODKH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "ACTL2102",
+        "credits": "6 UOC",
+        "title": "Foundations of Actuarial Models",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACTL2102"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "ACTL2131",
+        "credits": "6 UOC",
+        "title": "Probability and Mathematical Statistics",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACTL2131"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "ACTL3141",
+        "credits": "6 UOC",
+        "title": "Modelling and Prediction of Life and Health Related Risks",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACTL3141"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "ANAT1451",
+        "credits": "6 UOC",
+        "title": "Functional Anatomy and Biomechanics 1",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ANAT1451"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "ANAT1452",
+        "credits": "6 UOC",
+        "title": "Functional Anatomy and Biomechanics 2",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ANAT1452"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "ANAT1521",
+        "credits": "6 UOC",
+        "title": "Anatomy for Medical Science",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ANAT1521"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "ANAT2111",
+        "credits": "6 UOC",
+        "title": "Introductory Anatomy",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ANAT2111"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "ANAT2241",
+        "credits": "6 UOC",
+        "title": "Histology: Basic and Systematic",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ANAT2241"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "ANAT2341",
+        "credits": "6 UOC",
+        "title": "Embryology",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ANAT2341"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "ANAT2451",
+        "credits": "6 UOC",
+        "title": "Functional Anatomy for Health and Exercise Science",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ANAT2451"
+    }
+]

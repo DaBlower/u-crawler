@@ -1,0 +1,72 @@
+[
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "AERO3110",
+        "credits": "6 UOC",
+        "title": "Aerospace Design 1",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO3110"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "AERO3410",
+        "credits": "6 UOC",
+        "title": "Aerospace Structures",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO3410"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "AERO3630",
+        "credits": "6 UOC",
+        "title": "Aerodynamics",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO3630"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "AERO3660",
+        "credits": "6 UOC",
+        "title": "Flight Performance and Propulsion",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO3660"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "AERO4110",
+        "credits": "6 UOC",
+        "title": "Aerospace Design 2",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO4110"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "AERO4620",
+        "credits": "6 UOC",
+        "title": "Dynamics of Aerospace Vehicles, Systems and Avionics",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO4620"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "AERO9500",
+        "credits": "6 UOC",
+        "title": "Space Systems Architectures and Orbits",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO9500"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "AERO9610",
+        "credits": "6 UOC",
+        "title": "The Space Segment",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO9610"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "AERO9660",
+        "credits": "6 UOC",
+        "title": "Advanced Aerospace Propulsion",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO9660"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "ARCH1361",
+        "credits": "6 UOC",
+        "title": "Architectural Science and Building Environment 2",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARCH1361"
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "category": "Information Technology",
+        "code": "ACTL3151",
+        "credits": "6 UOC",
+        "title": "Actuarial Mathematics for Insurance and Superannuation",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACTL3151"
+    },
+    {
+        "category": "Information Technology",
+        "code": "AVIA3610",
+        "credits": "6 UOC",
+        "title": "Aviation Data Modelling",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AVIA3610"
+    },
+    {
+        "category": "Information Technology",
+        "code": "BINF6111",
+        "credits": "6 UOC",
+        "title": "Genome Informatics Engineering Design Workshop",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/BINF6111"
+    },
+    {
+        "category": "Information Technology",
+        "code": "BINF6112",
+        "credits": "6 UOC",
+        "title": "Computational Biology Engineering Design Workshop",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/BINF6112"
+    },
+    {
+        "category": "Information Technology",
+        "code": "COMM2822",
+        "credits": "6 UOC",
+        "title": "Introduction to Databases for Business Analytics",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/COMM2822"
+    },
+    {
+        "category": "Information Technology",
+        "code": "COMP1010",
+        "credits": "6 UOC",
+        "title": "The Art of Computing",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/COMP1010"
+    },
+    {
+        "category": "Information Technology",
+        "code": "COMP1337",
+        "credits": "6 UOC",
+        "title": "Foundations of Cyber Security",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/COMP1337"
+    },
+    {
+        "category": "Information Technology",
+        "code": "COMP1511",
+        "credits": "6 UOC",
+        "title": "Programming Fundamentals",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/COMP1511"
+    },
+    {
+        "category": "Information Technology",
+        "code": "COMP1531",
+        "credits": "6 UOC",
+        "title": "Software Engineering Fundamentals",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/COMP1531"
+    },
+    {
+        "category": "Information Technology",
+        "code": "COMP1911",
+        "credits": "6 UOC",
+        "title": "Computing 1A",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/COMP1911"
+    }
+]

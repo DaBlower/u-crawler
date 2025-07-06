@@ -6,5 +6,37 @@
     {
         "name": "Business and Management",
         "url": "https://www.handbook.unsw.edu.au/browse/By%20Area%20of%20Interest/BusinessandManagement"
+    },
+    {
+        "name": "Creative Arts",
+        "url": "https://www.handbook.unsw.edu.au/browse/By%20Area%20of%20Interest/CreativeArts"
+    },
+    {
+        "name": "Education",
+        "url": "https://www.handbook.unsw.edu.au/browse/By%20Area%20of%20Interest/Education"
+    },
+    {
+        "name": "Engineering and Related Technologies",
+        "url": "https://www.handbook.unsw.edu.au/browse/By%20Area%20of%20Interest/EngineeringandRelatedTechnologies"
+    },
+    {
+        "name": "Environmental and Related Studies",
+        "url": "https://www.handbook.unsw.edu.au/browse/By%20Area%20of%20Interest/EnvironmentalandRelatedStudies"
+    },
+    {
+        "name": "Health",
+        "url": "https://www.handbook.unsw.edu.au/browse/By%20Area%20of%20Interest/Health"
+    },
+    {
+        "name": "Humanities and Law",
+        "url": "https://www.handbook.unsw.edu.au/browse/By%20Area%20of%20Interest/HumanitiesandLaw"
+    },
+    {
+        "name": "Information Technology",
+        "url": "https://www.handbook.unsw.edu.au/browse/By%20Area%20of%20Interest/InformationTechnology"
+    },
+    {
+        "name": "Natural and Physical Sciences",
+        "url": "https://www.handbook.unsw.edu.au/browse/By%20Area%20of%20Interest/NaturalandPhysicalSciences"
     }
 ]

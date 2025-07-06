@@ -6,9 +6,11 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
+from pathlib import Path
 import random
 import time
 
+# selenium options
 options = Options()
 options.add_argument("--headless=new")
 options.add_argument("--disable-gpu")
@@ -35,6 +37,8 @@ for category in categories:
 
     driver = webdriver.Chrome(options=options)
     driver.get(url)
+
+    # wait until one element with class "cs-list-item" is loaded    
     WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.CLASS_NAME, "cs-list-item"))
     )
@@ -68,6 +72,18 @@ for category in categories:
     print(f"Scraped {name}, waiting {delay:.2f} seconds")
     time.sleep(delay)
 
+output_dir = Path("results/programs/2025")
+output_dir.mkdir(parents=True, exist_ok=True)
+
 # save results to json
-with open('results/programs.json', 'w') as file:
+with open(output_dir / 'programs.json', 'w') as file:
     json.dump(all_programs, file, indent=4, ensure_ascii=False)
+
+# save each category as its own json
+for category, programs in all_programs.items():
+    # sanitise filenames
+    safe_filename = "".join(c for c in category if c.isalnum)
+    file_path = output_dir / f"{safe_filename}.json"
+    
+    with open(file_path, 'w', encoding="utf-8") as file:
+        json.dump(programs, file, ensure_ascii=False, indent=4)
