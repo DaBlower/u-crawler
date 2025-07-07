@@ -142,5 +142,854 @@
             "title": "Global Financial Reporting and Analysis",
             "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACCT3601"
         }
+    ],
+    "Creative Arts": [
+        {
+            "category": "Creative Arts",
+            "code": "MDIADH",
+            "credits": "48 UOC",
+            "title": "Communication & Journalism",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDIADH"
+        },
+        {
+            "category": "Creative Arts",
+            "code": "CRWTWH",
+            "credits": "48 UOC",
+            "title": "Creative Writing",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/CRWTWH"
+        },
+        {
+            "category": "Creative Arts",
+            "code": "DANCBH",
+            "credits": "48 UOC",
+            "title": "Dance Studies",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/DANCBH"
+        },
+        {
+            "category": "Creative Arts",
+            "code": "FILMBH",
+            "credits": "48 UOC",
+            "title": "Film Studies",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/FILMBH"
+        },
+        {
+            "category": "Creative Arts",
+            "code": "MECTBH",
+            "credits": "48 UOC",
+            "title": "Media,Culture & Technology",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MECTBH"
+        },
+        {
+            "category": "Creative Arts",
+            "code": "MUSCBH",
+            "credits": "48 UOC",
+            "title": "Music Studies",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MUSCBH"
+        },
+        {
+            "category": "Creative Arts",
+            "code": "MDIAGH",
+            "credits": "48 UOC",
+            "title": "Public Relations&Advertising",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDIAGH"
+        },
+        {
+            "category": "Creative Arts",
+            "code": "MDIAHH",
+            "credits": "48 UOC",
+            "title": "Screen and Sound Production",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDIAHH"
+        },
+        {
+            "category": "Creative Arts",
+            "code": "THSTBH",
+            "credits": "48 UOC",
+            "title": "Theatre & Perf Studies",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/THSTBH"
+        }
+    ],
+    "Education": [
+        {
+            "category": "Education",
+            "code": "ATSI7006",
+            "credits": "12 UOC",
+            "title": "Pre-Teacher Education Program (Secondary) (Indigenous)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ATSI7006"
+        },
+        {
+            "category": "Education",
+            "code": "EDST1101",
+            "credits": "6 UOC",
+            "title": "Educational Psychology",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/EDST1101"
+        },
+        {
+            "category": "Education",
+            "code": "EDST1104",
+            "credits": "6 UOC",
+            "title": "Social Perspectives in Education",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/EDST1104"
+        },
+        {
+            "category": "Education",
+            "code": "EDST1108",
+            "credits": "6 UOC",
+            "title": "Indigenous Perspectives in Education",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/EDST1108"
+        },
+        {
+            "category": "Education",
+            "code": "EDST1120",
+            "credits": "6 UOC",
+            "title": "Foundations of Literacy in Education",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/EDST1120"
+        },
+        {
+            "category": "Education",
+            "code": "EDST1143",
+            "credits": "6 UOC",
+            "title": "Foundations of History and Geography in Education",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/EDST1143"
+        },
+        {
+            "category": "Education",
+            "code": "EDST1200",
+            "credits": "6 UOC",
+            "title": "Foundations of Science in Education",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/EDST1200"
+        },
+        {
+            "category": "Education",
+            "code": "EDST1244",
+            "credits": "6 UOC",
+            "title": "Foundations of the Arts in Education",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/EDST1244"
+        },
+        {
+            "category": "Education",
+            "code": "EDST1311",
+            "credits": "6 UOC",
+            "title": "Foundations of Mathematics",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/EDST1311"
+        },
+        {
+            "category": "Education",
+            "code": "EDST2002",
+            "credits": "6 UOC",
+            "title": "Professional Engagement",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/EDST2002"
+        }
+    ],
+    "Engineering and Related Technologies": [
+        {
+            "category": "Engineering and Related Technologies",
+            "code": "AERO3110",
+            "credits": "6 UOC",
+            "title": "Aerospace Design 1",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO3110"
+        },
+        {
+            "category": "Engineering and Related Technologies",
+            "code": "AERO3410",
+            "credits": "6 UOC",
+            "title": "Aerospace Structures",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO3410"
+        },
+        {
+            "category": "Engineering and Related Technologies",
+            "code": "AERO3630",
+            "credits": "6 UOC",
+            "title": "Aerodynamics",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO3630"
+        },
+        {
+            "category": "Engineering and Related Technologies",
+            "code": "AERO3660",
+            "credits": "6 UOC",
+            "title": "Flight Performance and Propulsion",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO3660"
+        },
+        {
+            "category": "Engineering and Related Technologies",
+            "code": "AERO4110",
+            "credits": "6 UOC",
+            "title": "Aerospace Design 2",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO4110"
+        },
+        {
+            "category": "Engineering and Related Technologies",
+            "code": "AERO4620",
+            "credits": "6 UOC",
+            "title": "Dynamics of Aerospace Vehicles, Systems and Avionics",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO4620"
+        },
+        {
+            "category": "Engineering and Related Technologies",
+            "code": "AERO9500",
+            "credits": "6 UOC",
+            "title": "Space Systems Architectures and Orbits",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO9500"
+        },
+        {
+            "category": "Engineering and Related Technologies",
+            "code": "AERO9610",
+            "credits": "6 UOC",
+            "title": "The Space Segment",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO9610"
+        },
+        {
+            "category": "Engineering and Related Technologies",
+            "code": "AERO9660",
+            "credits": "6 UOC",
+            "title": "Advanced Aerospace Propulsion",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AERO9660"
+        },
+        {
+            "category": "Engineering and Related Technologies",
+            "code": "ARCH1361",
+            "credits": "6 UOC",
+            "title": "Architectural Science and Building Environment 2",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARCH1361"
+        }
+    ],
+    "Environmental and Related Studies": [
+        {
+            "category": "Environmental and Related Studies",
+            "code": "ARCH1161",
+            "credits": "6 UOC",
+            "title": "Architectural Science and Building Environment 1",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARCH1161"
+        },
+        {
+            "category": "Environmental and Related Studies",
+            "code": "ARTS1240",
+            "credits": "6 UOC",
+            "title": "Environment and Society",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1240"
+        },
+        {
+            "category": "Environmental and Related Studies",
+            "code": "ARTS1241",
+            "credits": "6 UOC",
+            "title": "Environmental Advocacy and Activism",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1241"
+        },
+        {
+            "category": "Environmental and Related Studies",
+            "code": "ARTS1250",
+            "credits": "6 UOC",
+            "title": "Human Geography: Society, Space and Territory",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1250"
+        },
+        {
+            "category": "Environmental and Related Studies",
+            "code": "ARTS2240",
+            "credits": "6 UOC",
+            "title": "Environment, Sustainability and Development",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS2240"
+        },
+        {
+            "category": "Environmental and Related Studies",
+            "code": "ARTS2242",
+            "credits": "6 UOC",
+            "title": "The Politics of Climate Change",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS2242"
+        },
+        {
+            "category": "Environmental and Related Studies",
+            "code": "ARTS2243",
+            "credits": "6 UOC",
+            "title": "Waste and Society",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS2243"
+        },
+        {
+            "category": "Environmental and Related Studies",
+            "code": "ARTS2244",
+            "credits": "6 UOC",
+            "title": "The Animal: Worker, Wild, Extinct?",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS2244"
+        },
+        {
+            "category": "Environmental and Related Studies",
+            "code": "ARTS3240",
+            "credits": "6 UOC",
+            "title": "Environmental Humanities: Methods and Approaches",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS3240"
+        },
+        {
+            "category": "Environmental and Related Studies",
+            "code": "ARTS3241",
+            "credits": "6 UOC",
+            "title": "Environmental Justice",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS3241"
+        }
+    ],
+    "Health": [
+        {
+            "category": "Health",
+            "code": "3890",
+            "credits": "144 UOC",
+            "title": "Applied Exercise Science",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3890"
+        },
+        {
+            "category": "Health",
+            "code": "3893",
+            "credits": "144 UOC",
+            "title": "Exercise Science",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3893"
+        },
+        {
+            "category": "Health",
+            "code": "3805",
+            "credits": "288 UOC",
+            "title": "Medicine",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3805"
+        },
+        {
+            "category": "Health",
+            "code": "3891",
+            "credits": "144 UOC",
+            "title": "Nutrition",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3891"
+        },
+        {
+            "category": "Health",
+            "code": "3892",
+            "credits": "144 UOC",
+            "title": "Pharmaceutical Medicine",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3892"
+        },
+        {
+            "category": "Health",
+            "code": "3435",
+            "credits": "144 UOC",
+            "title": "Psychological Science",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3435"
+        },
+        {
+            "category": "Health",
+            "code": "4518",
+            "credits": "48 UOC",
+            "title": "Psychological Science (Honours)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4518"
+        },
+        {
+            "category": "Health",
+            "code": "3632",
+            "credits": "192 UOC",
+            "title": "Psychology (Honours)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3632"
+        },
+        {
+            "category": "Health",
+            "code": "3881",
+            "credits": "144 UOC",
+            "title": "Public Health",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3881"
+        },
+        {
+            "category": "Health",
+            "code": "3831",
+            "credits": "48 UOC",
+            "title": "Science (Medicine) Honours",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3831"
+        },
+        {
+            "category": "Health",
+            "code": "3897",
+            "credits": "216 UOC",
+            "title": "Applied Exercise Science / Clinical Exercise Physiology",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3897"
+        },
+        {
+            "category": "Health",
+            "code": "3799",
+            "credits": "192 UOC",
+            "title": "Criminology & Criminal Justice / Psychological Science",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3799"
+        },
+        {
+            "category": "Health",
+            "code": "3798",
+            "credits": "240 UOC",
+            "title": "Criminology & Criminal Justice / Psychology (Honours)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3798"
+        },
+        {
+            "category": "Health",
+            "code": "3896",
+            "credits": "240 UOC",
+            "title": "Exercise Science / Physiotherapy and Exercise Physiology",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3896"
+        },
+        {
+            "category": "Health",
+            "code": "3856",
+            "credits": "372 UOC",
+            "title": "Medicine / Arts",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3856"
+        },
+        {
+            "category": "Health",
+            "code": "3894",
+            "credits": "240 UOC",
+            "title": "Nutrition / Dietetics and Food Innovation",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3894"
+        },
+        {
+            "category": "Health",
+            "code": "3895",
+            "credits": "240 UOC",
+            "title": "Pharmaceutical Medicine / Pharmacy",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3895"
+        },
+        {
+            "category": "Health",
+            "code": "4722",
+            "credits": "240 UOC",
+            "title": "Psychological Science / Law",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4722"
+        },
+        {
+            "category": "Health",
+            "code": "4721",
+            "credits": "288 UOC",
+            "title": "Psychology (Honours) / Law",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4721"
+        },
+        {
+            "category": "Health",
+            "code": "3182",
+            "credits": "240 UOC",
+            "title": "Vision Science / Clinical Optometry",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3182"
+        },
+        {
+            "category": "Health",
+            "code": "MDCNRH",
+            "credits": "48 UOC",
+            "title": "Addiction Medicine (Extended Research)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDCNRH"
+        },
+        {
+            "category": "Health",
+            "code": "MDCNLH",
+            "credits": "48 UOC",
+            "title": "Anaesthetics (Extended Research)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDCNLH"
+        },
+        {
+            "category": "Health",
+            "code": "SOMSGH",
+            "credits": "48 UOC",
+            "title": "Anatomy (Extended Research)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/SOMSGH"
+        },
+        {
+            "category": "Health",
+            "code": "MDCNAH",
+            "credits": "48 UOC",
+            "title": "Clinical Artificial Intelligence",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDCNAH"
+        },
+        {
+            "category": "Health",
+            "code": "MDCNBH",
+            "credits": "48 UOC",
+            "title": "Clinical Artificial Intelligence (Extended Research)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDCNBH"
+        },
+        {
+            "category": "Health",
+            "code": "MDCNIH",
+            "credits": "48 UOC",
+            "title": "Dermatology (Extended Research)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDCNIH"
+        },
+        {
+            "category": "Health",
+            "code": "MDCNKH",
+            "credits": "48 UOC",
+            "title": "Emergency Medicine (Extended Research)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDCNKH"
+        },
+        {
+            "category": "Health",
+            "code": "PHCMCH",
+            "credits": "48 UOC",
+            "title": "Environmental Health Data Science",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/PHCMCH"
+        },
+        {
+            "category": "Health",
+            "code": "FOODKH",
+            "credits": "180 UOC",
+            "title": "Food Science and Nutrition",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/FOODKH"
+        },
+        {
+            "category": "Health",
+            "code": "MDCNOH",
+            "credits": "48 UOC",
+            "title": "General Practice (Extended Research)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDCNOH"
+        },
+        {
+            "category": "Health",
+            "code": "ATSI7003",
+            "credits": "12 UOC",
+            "title": "Pre-Medicine and Health Program (Indigenous)",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ATSI7003"
+        },
+        {
+            "category": "Health",
+            "code": "AVIA3012",
+            "credits": "6 UOC",
+            "title": "Aviation Safety Management Systems",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AVIA3012"
+        },
+        {
+            "category": "Health",
+            "code": "AVIA3013",
+            "credits": "6 UOC",
+            "title": "Managing Safety and Risk at Work",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AVIA3013"
+        },
+        {
+            "category": "Health",
+            "code": "DIET1001",
+            "credits": "6 UOC",
+            "title": "Introduction to Dietetics and Food Innovation",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/DIET1001"
+        },
+        {
+            "category": "Health",
+            "code": "DIET2001",
+            "credits": "6 UOC",
+            "title": "Nutrition for Health Professionals 1",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/DIET2001"
+        },
+        {
+            "category": "Health",
+            "code": "DIET2002",
+            "credits": "6 UOC",
+            "title": "Nutrition for Health Professionals 2",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/DIET2002"
+        },
+        {
+            "category": "Health",
+            "code": "DIET2003",
+            "credits": "6 UOC",
+            "title": "Farm to Fork 1",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/DIET2003"
+        },
+        {
+            "category": "Health",
+            "code": "DIET2004",
+            "credits": "6 UOC",
+            "title": "Farm to Fork 2",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/DIET2004"
+        },
+        {
+            "category": "Health",
+            "code": "DIET2005",
+            "credits": "6 UOC",
+            "title": "Health Communication",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/DIET2005"
+        },
+        {
+            "category": "Health",
+            "code": "DIET3001",
+            "credits": "6 UOC",
+            "title": "Culinary Science and Food Service",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/DIET3001"
+        }
+    ],
+    "Humanities and Law": [
+        {
+            "category": "Humanities and Law",
+            "code": "ASIABH",
+            "credits": "48 UOC",
+            "title": "Asian Studies",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/ASIABH"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "ATSIAH",
+            "credits": "48 UOC",
+            "title": "Australian Indigenous Studies",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/ATSIAH"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "ECONFH",
+            "credits": "48 UOC",
+            "title": "Business Economics",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/ECONFH"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "TABLLH",
+            "credits": "48 UOC",
+            "title": "Business Law",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/TABLLH"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "CHINBH",
+            "credits": "48 UOC",
+            "title": "Chinese Studies",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/CHINBH"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "CRIMBH",
+            "credits": "48 UOC",
+            "title": "Criminology& Criminal Justice",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/CRIMBH"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "ECONEH",
+            "credits": "48 UOC",
+            "title": "Econometrics",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/ECONEH"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "ECONAH",
+            "credits": "48 UOC",
+            "title": "Economics",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/ECONAH"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "ENGLDH",
+            "credits": "48 UOC",
+            "title": "English",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/ENGLDH"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "ZHSSEH",
+            "credits": "48 UOC",
+            "title": "English and Media Studies",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/ZHSSEH"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "ANAT2521",
+            "credits": "6 UOC",
+            "title": "Forensic Anthropology: Principles and Practices",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ANAT2521"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "ARTS1009",
+            "credits": "6 UOC",
+            "title": "Creative Writing",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1009"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "ARTS1011",
+            "credits": "6 UOC",
+            "title": "Inventing the Self: Creative Writing in the Digital Age",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1011"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "ARTS1030",
+            "credits": "6 UOC",
+            "title": "The Literary Imagination: Introduction to English",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1030"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "ARTS1031",
+            "credits": "6 UOC",
+            "title": "Reading Through Time",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1031"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "ARTS1032",
+            "credits": "6 UOC",
+            "title": "The Literature Laboratory: Writing Beyond Limits",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1032"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "ARTS1190",
+            "credits": "6 UOC",
+            "title": "Sydney: History, Landscapes, People",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1190"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "ARTS1210",
+            "credits": "6 UOC",
+            "title": "Concepts of Asia",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1210"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "ARTS1211",
+            "credits": "6 UOC",
+            "title": "Australia's Asian Context",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1211"
+        },
+        {
+            "category": "Humanities and Law",
+            "code": "ARTS1270",
+            "credits": "6 UOC",
+            "title": "Global History: Exploring the First Globalization, 15th-19th Century",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1270"
+        }
+    ],
+    "Information Technology": [
+        {
+            "category": "Information Technology",
+            "code": "ACTL3151",
+            "credits": "6 UOC",
+            "title": "Actuarial Mathematics for Insurance and Superannuation",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACTL3151"
+        },
+        {
+            "category": "Information Technology",
+            "code": "AVIA3610",
+            "credits": "6 UOC",
+            "title": "Aviation Data Modelling",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/AVIA3610"
+        },
+        {
+            "category": "Information Technology",
+            "code": "BINF6111",
+            "credits": "6 UOC",
+            "title": "Genome Informatics Engineering Design Workshop",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/BINF6111"
+        },
+        {
+            "category": "Information Technology",
+            "code": "BINF6112",
+            "credits": "6 UOC",
+            "title": "Computational Biology Engineering Design Workshop",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/BINF6112"
+        },
+        {
+            "category": "Information Technology",
+            "code": "COMM2822",
+            "credits": "6 UOC",
+            "title": "Introduction to Databases for Business Analytics",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/COMM2822"
+        },
+        {
+            "category": "Information Technology",
+            "code": "COMP1010",
+            "credits": "6 UOC",
+            "title": "The Art of Computing",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/COMP1010"
+        },
+        {
+            "category": "Information Technology",
+            "code": "COMP1337",
+            "credits": "6 UOC",
+            "title": "Foundations of Cyber Security",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/COMP1337"
+        },
+        {
+            "category": "Information Technology",
+            "code": "COMP1511",
+            "credits": "6 UOC",
+            "title": "Programming Fundamentals",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/COMP1511"
+        },
+        {
+            "category": "Information Technology",
+            "code": "COMP1531",
+            "credits": "6 UOC",
+            "title": "Software Engineering Fundamentals",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/COMP1531"
+        },
+        {
+            "category": "Information Technology",
+            "code": "COMP1911",
+            "credits": "6 UOC",
+            "title": "Computing 1A",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/COMP1911"
+        }
+    ],
+    "Natural and Physical Sciences": [
+        {
+            "category": "Natural and Physical Sciences",
+            "code": "ACTL2102",
+            "credits": "6 UOC",
+            "title": "Foundations of Actuarial Models",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACTL2102"
+        },
+        {
+            "category": "Natural and Physical Sciences",
+            "code": "ACTL2131",
+            "credits": "6 UOC",
+            "title": "Probability and Mathematical Statistics",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACTL2131"
+        },
+        {
+            "category": "Natural and Physical Sciences",
+            "code": "ACTL3141",
+            "credits": "6 UOC",
+            "title": "Modelling and Prediction of Life and Health Related Risks",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ACTL3141"
+        },
+        {
+            "category": "Natural and Physical Sciences",
+            "code": "ANAT1451",
+            "credits": "6 UOC",
+            "title": "Functional Anatomy and Biomechanics 1",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ANAT1451"
+        },
+        {
+            "category": "Natural and Physical Sciences",
+            "code": "ANAT1452",
+            "credits": "6 UOC",
+            "title": "Functional Anatomy and Biomechanics 2",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ANAT1452"
+        },
+        {
+            "category": "Natural and Physical Sciences",
+            "code": "ANAT1521",
+            "credits": "6 UOC",
+            "title": "Anatomy for Medical Science",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ANAT1521"
+        },
+        {
+            "category": "Natural and Physical Sciences",
+            "code": "ANAT2111",
+            "credits": "6 UOC",
+            "title": "Introductory Anatomy",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ANAT2111"
+        },
+        {
+            "category": "Natural and Physical Sciences",
+            "code": "ANAT2241",
+            "credits": "6 UOC",
+            "title": "Histology: Basic and Systematic",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ANAT2241"
+        },
+        {
+            "category": "Natural and Physical Sciences",
+            "code": "ANAT2341",
+            "credits": "6 UOC",
+            "title": "Embryology",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ANAT2341"
+        },
+        {
+            "category": "Natural and Physical Sciences",
+            "code": "ANAT2451",
+            "credits": "6 UOC",
+            "title": "Functional Anatomy for Health and Exercise Science",
+            "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ANAT2451"
+        }
     ]
 }

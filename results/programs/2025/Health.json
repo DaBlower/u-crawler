@@ -1,6 +1,216 @@
 [
     {
         "category": "Health",
+        "code": "3890",
+        "credits": "144 UOC",
+        "title": "Applied Exercise Science",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3890"
+    },
+    {
+        "category": "Health",
+        "code": "3893",
+        "credits": "144 UOC",
+        "title": "Exercise Science",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3893"
+    },
+    {
+        "category": "Health",
+        "code": "3805",
+        "credits": "288 UOC",
+        "title": "Medicine",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3805"
+    },
+    {
+        "category": "Health",
+        "code": "3891",
+        "credits": "144 UOC",
+        "title": "Nutrition",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3891"
+    },
+    {
+        "category": "Health",
+        "code": "3892",
+        "credits": "144 UOC",
+        "title": "Pharmaceutical Medicine",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3892"
+    },
+    {
+        "category": "Health",
+        "code": "3435",
+        "credits": "144 UOC",
+        "title": "Psychological Science",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3435"
+    },
+    {
+        "category": "Health",
+        "code": "4518",
+        "credits": "48 UOC",
+        "title": "Psychological Science (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4518"
+    },
+    {
+        "category": "Health",
+        "code": "3632",
+        "credits": "192 UOC",
+        "title": "Psychology (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3632"
+    },
+    {
+        "category": "Health",
+        "code": "3881",
+        "credits": "144 UOC",
+        "title": "Public Health",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3881"
+    },
+    {
+        "category": "Health",
+        "code": "3831",
+        "credits": "48 UOC",
+        "title": "Science (Medicine) Honours",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3831"
+    },
+    {
+        "category": "Health",
+        "code": "3897",
+        "credits": "216 UOC",
+        "title": "Applied Exercise Science / Clinical Exercise Physiology",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3897"
+    },
+    {
+        "category": "Health",
+        "code": "3799",
+        "credits": "192 UOC",
+        "title": "Criminology & Criminal Justice / Psychological Science",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3799"
+    },
+    {
+        "category": "Health",
+        "code": "3798",
+        "credits": "240 UOC",
+        "title": "Criminology & Criminal Justice / Psychology (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3798"
+    },
+    {
+        "category": "Health",
+        "code": "3896",
+        "credits": "240 UOC",
+        "title": "Exercise Science / Physiotherapy and Exercise Physiology",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3896"
+    },
+    {
+        "category": "Health",
+        "code": "3856",
+        "credits": "372 UOC",
+        "title": "Medicine / Arts",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3856"
+    },
+    {
+        "category": "Health",
+        "code": "3894",
+        "credits": "240 UOC",
+        "title": "Nutrition / Dietetics and Food Innovation",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3894"
+    },
+    {
+        "category": "Health",
+        "code": "3895",
+        "credits": "240 UOC",
+        "title": "Pharmaceutical Medicine / Pharmacy",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3895"
+    },
+    {
+        "category": "Health",
+        "code": "4722",
+        "credits": "240 UOC",
+        "title": "Psychological Science / Law",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4722"
+    },
+    {
+        "category": "Health",
+        "code": "4721",
+        "credits": "288 UOC",
+        "title": "Psychology (Honours) / Law",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4721"
+    },
+    {
+        "category": "Health",
+        "code": "3182",
+        "credits": "240 UOC",
+        "title": "Vision Science / Clinical Optometry",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3182"
+    },
+    {
+        "category": "Health",
+        "code": "MDCNRH",
+        "credits": "48 UOC",
+        "title": "Addiction Medicine (Extended Research)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDCNRH"
+    },
+    {
+        "category": "Health",
+        "code": "MDCNLH",
+        "credits": "48 UOC",
+        "title": "Anaesthetics (Extended Research)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDCNLH"
+    },
+    {
+        "category": "Health",
+        "code": "SOMSGH",
+        "credits": "48 UOC",
+        "title": "Anatomy (Extended Research)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/SOMSGH"
+    },
+    {
+        "category": "Health",
+        "code": "MDCNAH",
+        "credits": "48 UOC",
+        "title": "Clinical Artificial Intelligence",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDCNAH"
+    },
+    {
+        "category": "Health",
+        "code": "MDCNBH",
+        "credits": "48 UOC",
+        "title": "Clinical Artificial Intelligence (Extended Research)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDCNBH"
+    },
+    {
+        "category": "Health",
+        "code": "MDCNIH",
+        "credits": "48 UOC",
+        "title": "Dermatology (Extended Research)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDCNIH"
+    },
+    {
+        "category": "Health",
+        "code": "MDCNKH",
+        "credits": "48 UOC",
+        "title": "Emergency Medicine (Extended Research)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDCNKH"
+    },
+    {
+        "category": "Health",
+        "code": "PHCMCH",
+        "credits": "48 UOC",
+        "title": "Environmental Health Data Science",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/PHCMCH"
+    },
+    {
+        "category": "Health",
+        "code": "FOODKH",
+        "credits": "180 UOC",
+        "title": "Food Science and Nutrition",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/FOODKH"
+    },
+    {
+        "category": "Health",
+        "code": "MDCNOH",
+        "credits": "48 UOC",
+        "title": "General Practice (Extended Research)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MDCNOH"
+    },
+    {
+        "category": "Health",
         "code": "ATSI7003",
         "credits": "12 UOC",
         "title": "Pre-Medicine and Health Program (Indigenous)",

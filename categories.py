@@ -8,11 +8,15 @@ from urllib.robotparser import RobotFileParser
 import time
 import os
 from datetime import datetime
+import sys
+
+# Check if debug flag is enabled
+debug = "--debug" in sys.argv or "-d" in sys.argv
 
 os.makedirs("logs", exist_ok=True)
 logging.basicConfig(
-    filename="logs/crawl.log",
-    level=logging.DEBUG,
+    filename=f"logs/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}-categories.log",
+    level=logging.DEBUG if debug else logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
@@ -86,3 +90,4 @@ end_time = time.time()
 duration = end_time - start_time
 logging.info(f"Scraping completed in {duration:.2f} seconds")
 logging.info(f"Catergory scrape ended at {datetime.now().isoformat()}")
+print("Categories.py finished")
