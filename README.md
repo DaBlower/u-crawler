@@ -2,7 +2,7 @@
 A python-based web scraper that collects and categorises UNSW (University of New South Wales) undergraduate programs by their areas of interest and outputs it into a json file
 
 ## Objective
-The objective of this crawler is to scrape every area of interest and find all of the undergratuate programs offered at the University of New South Wales.
+The objective of this crawler is to scrape every area of interest and find all of the undergraduate programs offered at the University of New South Wales.
 
 ## Directory Structure
 ```
@@ -46,4 +46,4 @@ Note: You can only run the scraper using main.py, you cannot run categories.py o
 * Scrapes areas of interest (eg. Engineering and Related Technologies) and the undergraduate programs in each one
 * Respects `robots.txt`
 * Writes results in structured JSON files per area of interest and overall
-* Logs crawl status and errors in `logs/` and debuging information if `--debug` or `-d` is passed as an argument
+* Logs crawl status and errors in `logs/` and debugging information if `--debug` or `-d` is passed as an argument
