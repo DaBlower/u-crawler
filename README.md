@@ -1,4 +1,5 @@
 # U-crawler
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)![Hackatime Badge](https://hackatime-badge.hackclub.com/U092DB4LGMP/u-crawler)<br/>
 A python-based web scraper that collects and categorises UNSW (University of New South Wales) undergraduate programs by their areas of interest and outputs it into a json file
 
 ## Objective
