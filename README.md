@@ -5,6 +5,7 @@ A python-based web scraper that collects and categorises UNSW (University of New
 The objective of this crawler is to scrape every area of interest and find all of the undergratuate programs offered at the University of New South Wales.
 
 ## Directory Structure
+```
 ├── categories.py
 ├── main.py
 ├── programs.py
@@ -23,6 +24,7 @@ The objective of this crawler is to scrape every area of interest and find all o
             ├── Information Technology.json
             ├── Natural and Physical Sciences.json
             └── programs.json - This contains all of the separate area of interest files together
+```
 
 ## Setup instructions
 1. Clone this repository
