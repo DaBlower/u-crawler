@@ -1,5 +1,9 @@
 ## Usage
-Just open a command prompt where you downloaded the exe and run `u-crawler.exe`!
+Just open unzip the folder for your OS and run `u-crawler`!
+
+You might get a warning on Windows about it being malicious, you can safely ignore it. This happens because
+1. It is an exe file, which some browsers treat as being suspicious
+2. It is not signed (getting a signing certificate is pretty expensive!)
 
 ## Features
 
