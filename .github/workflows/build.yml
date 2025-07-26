@@ -91,6 +91,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           body: ${{ env.body }}
-          files: artifacts/**/*  # grabs all zipped builds
+          files: artifacts/**/*
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
