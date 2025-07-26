@@ -1,0 +1,88 @@
+name: Cross-platform Build
+
+on:
+  push:
+    tags:
+      - 'v*'  # triggers on version tags like v1.0.0
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build executable
+        run: pyinstaller --clean u-crawler.spec
+
+      - name: Move build artifacts (Linux/macOS)
+        if: runner.os != 'Windows'
+        run: |
+          mkdir -p dist/${{ runner.os }}
+          mv dist/u-crawler* dist/${{ runner.os }}/
+
+      - name: Move build artifacts (Windows)
+        if: runner.os == 'Windows'
+        run: |
+          New-Item -ItemType Directory -Force -Path dist/${{ runner.os }}
+          Move-Item dist\u-crawler* dist\${{ runner.os }}\
+
+      - name: Zip artifacts
+        run: |
+          cd dist/${{ runner.os }}
+          zip -r ../u-crawler-${{ runner.os }}.zip .
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-${{ runner.os }}
+          path: dist/u-crawler-${{ runner.os }}.zip
+
+  release:
+    name: Create GitHub Release
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract version from tag
+        id: get_version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_ENV
+
+      - name: Load release template
+        id: release_notes
+        run: |
+          notes=$(cat .github/release.md)
+          echo "body<<EOF" >> $GITHUB_ENV
+          echo "${notes}" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v3
+        with:
+          path: artifacts
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          body: ${{ env.body }}
+          files: artifacts/**/*  # grabs all zipped builds
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
