@@ -10,84 +10,82 @@ import os
 from datetime import datetime
 import sys
 
-# Check if debug flag is enabled
-debug = "--debug" in sys.argv or "-d" in sys.argv
+def run(debug):
+    os.makedirs("logs", exist_ok=True)
+    logging.basicConfig(
+        filename=f"logs/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}-categories.log",
+        level=logging.DEBUG if debug else logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s"
+    )
 
-os.makedirs("logs", exist_ok=True)
-logging.basicConfig(
-    filename=f"logs/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}-categories.log",
-    level=logging.DEBUG if debug else logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
-)
+    logging.info(f"Catergory scrape started at {datetime.now().isoformat()}")
+    start_time = time.time()
 
-logging.info(f"Catergory scrape started at {datetime.now().isoformat()}")
-start_time = time.time()
+    # target url
+    url = 'https://www.handbook.unsw.edu.au/'
 
-# target url
-url = 'https://www.handbook.unsw.edu.au/'
+    # set headers
+    headers = {'User-Agent': 'Mozilla/5.0'}
 
-# set headers
-headers = {'User-Agent': 'Mozilla/5.0'}
-
-# check robots.txt
-rp = RobotFileParser()
-rp.set_url(url.rstrip("/") + "/robots.txt")
-try:
-    rp.read()
-    logging.debug("Successfully read robots.txt")
-except Exception as e:
-    logging.error(f"Failed to read robots.txt: {e}")
-    print("Unable to fetch robots.txt, check your connection")
-    exit(1)
-
-if (rp.can_fetch(headers['User-Agent'], url)):
-    logging.debug("Category scraping permitted under robots.txt")
-    # send request
+    # check robots.txt
+    rp = RobotFileParser()
+    rp.set_url(url.rstrip("/") + "/robots.txt")
     try:
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        logging.debug(f"Successfully fetched homepage: {url}")
-    except requests.exceptions.RequestException as e:
-        logging.error(f"Failed to fetch homepage: {e}")
+        rp.read()
+        logging.debug("Successfully read robots.txt")
+    except Exception as e:
+        logging.error(f"Failed to read robots.txt: {e}")
+        print("Unable to fetch robots.txt, check your connection")
         exit(1)
 
-    # parse HTML
-    soup = BeautifulSoup(response.text, 'html.parser')
+    if (rp.can_fetch(headers['User-Agent'], url)):
+        logging.debug("Category scraping permitted under robots.txt")
+        # send request
+        try:
+            response = requests.get(url, headers=headers, timeout=10)
+            response.raise_for_status()
+            logging.debug(f"Successfully fetched homepage: {url}")
+        except requests.exceptions.RequestException as e:
+            logging.error(f"Failed to fetch homepage: {e}")
+            exit(1)
 
-    # find all areas of interest
-    tiles = soup.find_all(class_='css-1tqr8qw-Tile--STileItem-Tile--STile e1mix0ja3')
-    if len(tiles) == 0:
-        logging.warning('Found 0 categories')
+        # parse HTML
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        # find all areas of interest
+        tiles = soup.find_all(class_='css-1tqr8qw-Tile--STileItem-Tile--STile e1mix0ja3')
+        if len(tiles) == 0:
+            logging.warning('Found 0 categories')
+        else:
+            logging.debug(f'Found {len(tiles)} categories')
+
+        categories = []
+
+        for tile in tiles:
+            name = tile.find('h4').get_text(strip=True)
+            relative_url = tile.a['href']
+            encoded_relative_url = requests.utils.quote(relative_url)
+            full_url = f"{url.rstrip('/')}{encoded_relative_url}"
+            categories.append({'name': name, 'url': full_url})
+
+        # make results directory if it doesn't already exist
+        os.makedirs('results', exist_ok=True)
+
+        # save output
+        output_path = 'results/categories.json'
+
+        try:
+            with open(output_path, 'w', encoding='utf-8') as file:
+                json.dump(categories, file, ensure_ascii=False, indent=4)
+            logging.info(f"Saved {len(categories)} categories to {output_path}")
+        except Exception as e:
+            logging.error(f"Failed to write categories to JSON: {e}")
     else:
-        logging.debug(f'Found {len(tiles)} categories')
+        logging.warning('Skipping category scrape due to robots.txt restriction')
+        print("Cannot parse due to robots.txt restriction")
 
-    categories = []
-
-    for tile in tiles:
-        name = tile.find('h4').get_text(strip=True)
-        relative_url = tile.a['href']
-        encoded_relative_url = requests.utils.quote(relative_url)
-        full_url = f"{url.rstrip('/')}{encoded_relative_url}"
-        categories.append({'name': name, 'url': full_url})
-
-    # make results directory if it doesn't already exist
-    os.makedirs('results', exist_ok=True)
-
-    # save output
-    output_path = 'results/categories.json'
-
-    try:
-        with open(output_path, 'w', encoding='utf-8') as file:
-            json.dump(categories, file, ensure_ascii=False, indent=4)
-        logging.info(f"Saved {len(categories)} categories to {output_path}")
-    except Exception as e:
-        logging.error(f"Failed to write categories to JSON: {e}")
-else:
-    logging.warning('Skipping category scrape due to robots.txt restriction')
-    print("Cannot parse due to robots.txt restriction")
-
-end_time = time.time()
-duration = end_time - start_time
-logging.info(f"Scraping completed in {duration:.2f} seconds")
-logging.info(f"Catergory scrape ended at {datetime.now().isoformat()}")
-print("Categories.py finished")
+    end_time = time.time()
+    duration = end_time - start_time
+    logging.info(f"Scraping completed in {duration:.2f} seconds")
+    logging.info(f"Catergory scrape ended at {datetime.now().isoformat()}")
+    print("Categories.py finished")
