@@ -1,5 +1,3 @@
-# ${{ env.VERSION }}
-
 ## Usage
 Just open a command prompt where you downloaded the exe and run `u-crawler.exe`!
 

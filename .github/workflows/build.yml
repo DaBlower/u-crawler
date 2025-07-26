@@ -91,7 +91,7 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          name: ChronoTime v${{ env.VERSION }}
+          name: u-crawler v${{ env.VERSION }}
           body: ${{ env.body }}
           files: artifacts/**/*
 
