@@ -81,12 +81,7 @@ jobs:
       - name: Load release template
         id: release_notes
         run: |
-          {
-            echo 'body<<EOF'
-            cat .github/release.md
-            echo 'EOF'
-          } >> $GITHUB_ENV
-
+          printf "body<<EOF\n%s\nEOF\n" "$(cat .github/release.md)" >> $GITHUB_ENV
 
       - name: Download all artifacts
         uses: actions/download-artifact@v4
