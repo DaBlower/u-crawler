@@ -75,15 +75,15 @@ jobs:
 
       - name: Extract version from tag
         id: get_version
-        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_ENV
+        run: |
+          echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_ENV
 
       - name: Load release template
         id: release_notes
         run: |
-          notes=$(cat .github/release.md)
-          echo "body<<EOF" >> $GITHUB_ENV
-          echo "${notes}" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
+          echo 'body<<EOF' >> $GITHUB_ENV
+          cat .github/release.md >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
 
       - name: Download all artifacts
         uses: actions/download-artifact@v4
@@ -93,7 +93,9 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
+          name: ChronoTime v${{ env.VERSION }}
           body: ${{ env.body }}
           files: artifacts/**/*
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
