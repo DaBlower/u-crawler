@@ -110,7 +110,7 @@ def run(debug):
                 try:
                     href = link['href']
                     encodedHref = requests.utils.quote(href)
-                    full_link = f'{base_url.rstrip('/')}{encodedHref}'
+                    full_link = f'{base_url.rstrip("/")}{encodedHref}'
                     container = link.find('div', class_="BrowseResultContainer")
 
                     code = container.find('div', class_="section1 css-n5lzii-Links--StyledAILinkHeaderSection e1t6s54p6")
@@ -156,7 +156,7 @@ def run(debug):
             
             with open(file_path, 'w', encoding="utf-8") as file:
                 json.dump(programs, file, ensure_ascii=False, indent=4)
-        logging.debug('Successfully saved {safe_filename}.json')
+        logging.debug(f'Successfully saved {safe_filename}.json')
     except Exception as e:
         logging.error(f"Failed to write file for {category}: {e}")
 
