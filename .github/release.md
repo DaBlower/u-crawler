@@ -5,6 +5,8 @@ You might get a warning on Windows about it being malicious, you can safely igno
 1. It is an exe file, which some browsers treat as being suspicious
 2. It is not signed (getting a signing certificate is pretty expensive!)
 
+**Also if your browser says it couldn't download the file, use Firefox!**
+
 ## Features
 
 - Uses requests, BeautifulSoup and Selenium with headless Chrome  
