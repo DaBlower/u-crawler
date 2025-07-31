@@ -2,11 +2,11 @@
 
 
 a = Analysis(
-    ['main.py'],
+    ['main.py', 'categories.py', 'programs.py'],
     pathex=[],
     binaries=[],
-    datas=[],
-    hiddenimports=['bs4', 'lxml', 'html5lib', 'categories', 'programs'],
+    datas=[('categories.py', '.'), ('programs.py', '.')],
+    hiddenimports=['bs4', 'lxml', 'html5lib', 'categories', 'programs', 'selenium', 'selenium.webdriver', 'selenium.webdriver.chrome', 'selenium.webdriver.chrome.options', 'selenium.webdriver.support', 'selenium.webdriver.common.by', 'selenium.webdriver.support.expected_conditions', 'urllib.robotparser', 'pathlib'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
