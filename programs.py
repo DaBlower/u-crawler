@@ -25,7 +25,7 @@ def run(debug):
     )
 
     logging.basicConfig(
-        filename=f"logs/{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}-programs.log",
+        filename=f"logs/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}-programs.log",
         level=logging.DEBUG,
         format="%(asctime)s - %(levelname)s - %(message)s"
     )
