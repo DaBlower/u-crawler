@@ -28,6 +28,10 @@ The objective of this crawler is to scrape every area of interest and find all o
 ```
 
 ## Setup instructions
+### Prebuilt executables
+Just download the [latest release](https://github.com/DaBlower/u-crawler/releases/latest), unzip and run!
+
+### Manual
 1. Clone this repository
 2. Create a virtual environment
     ```bash
