@@ -8,5 +8,5 @@ os.system("cls" if os.name == "nt" else "clear")
 # get categories of interest
 print("Running categories.py")
 categories.run(debug=False)
-print("\nRunning programs.py")
+print("\nRunning programs.py (this might take a bit)")
 programs.run(debug=False)

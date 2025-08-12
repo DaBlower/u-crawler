@@ -33,8 +33,7 @@ def run(debug):
     start_time = time.time()
     # selenium options
     options = Options()
-    options.add_argument("--headless=new")
-    options.add_argument("--disable-gpu")
+    options.add_argument("--headless")
     options.add_argument("--log-level=3")
     options.add_argument("--window-size=1920,1080")
 
@@ -44,15 +43,15 @@ def run(debug):
             categories = json.load(file)
         logging.debug("Successfully loaded categories.json")
     except Exception as e:
-        logging.error("Failed to load categories.json - have you ran categories.py yet?")
-        print("ERROR: Failed to load categories.json - have you ran categories.py yet?")
-        exit(1)
+        logging.error(f"Failed to load categories.json - have you ran categories.py yet? {e}")
+        print(f"ERROR: Failed to load categories.json - have you ran categories.py yet? (also if you are a SOM reviewer, please show the logs){e}")
+        sys.exit(1)
 
     # check if categories is empty
     if not categories:
         logging.error("No categories found in categories.json")
-        print("ERROR: No categories found in categories.json")
-        exit(1)
+        print("ERROR: No categories found in categories.json (also if you are a SOM reviewer, please show the logs)")
+        sys.exit(1)
 
     # set headers
     headers = {'User-Agent': 'Mozilla/5.0'}
@@ -75,8 +74,8 @@ def run(debug):
             logging.debug("Successfully read robots.txt")
         except Exception as e:
             logging.error(f"Failed to read robots.txt: {e}")
-            print("ERROR: Unable to fetch robots.txt, check your connection")
-            exit(1)
+            print(f"ERROR: Unable to fetch robots.txt, check your connection (also if you are a SOM reviewer, please show the logs){e}")
+            sys.exit(1)
 
         if (rp.can_fetch(headers['User-Agent'], url)):
             logging.debug(f"Scraping of {url} permitted under Robots.txt")
@@ -93,7 +92,7 @@ def run(debug):
                 logging.debug(f"Headless browser for {url} loaded successfully")
             except Exception as e:
                 logging.error(f"Failed to load headless browser for {url}: {e}")
-                print(f"ERROR: Failed to load headless browser for {url}")
+                print(f"ERROR: Failed to load headless browser for {url} (also if you are a SOM reviewer, please show the logs){e}")
                 continue # skip to next loop iteration
             finally:
                 try:
@@ -131,8 +130,8 @@ def run(debug):
             print(f"Scraped {name}, waiting {delay:.2f} seconds")
             time.sleep(delay)
         else:
-            logging.debug(f"Skipped {url} due to robots.txt restrictions")
-            print(f"ERROR: Skipped {name} due to robots.txt restrictions")
+            logging.WARN(f"Skipped {url} due to robots.txt restrictions")
+            print(f"WARNING: whoops, skipped {name} due to robots.txt restrictions (make a github issue please)")
 
     output_dir = Path("results/programs/2025")
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -140,11 +139,11 @@ def run(debug):
     # save all results in a singular json
     try:
         # save results to json
-        with open(output_dir / 'programs.json', 'w') as file:
+        with open(output_dir / 'overall.json', 'w') as file:
             json.dump(all_programs, file, indent=4, ensure_ascii=False)
             logging.debug(f"Wrote all programs to programs.json successfully")
     except Exception as e:
-        logging.error(f"Failed to write all programs to programs.json")
+        logging.error(f"Failed to write all programs to programs.json (also if you are a SOM reviewer, please show the logs)")
 
 
     # save each category as its own json
@@ -158,7 +157,7 @@ def run(debug):
                 json.dump(programs, file, ensure_ascii=False, indent=4)
         logging.debug(f'Successfully saved {safe_filename}.json')
     except Exception as e:
-        logging.error(f"Failed to write file for {category}: {e}")
+        logging.error(f"Failed to write file for {category}: (also if you are a SOM reviewer, please show the logs) {e}")
 
     end_time = time.time()
     duration = end_time - start_time

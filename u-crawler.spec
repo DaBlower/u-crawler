@@ -2,11 +2,11 @@
 
 
 a = Analysis(
-    ['main.py', 'categories.py', 'programs.py'],
+    ['main.py'],
     pathex=[],
     binaries=[],
     datas=[('categories.py', '.'), ('programs.py', '.')],
-    hiddenimports=['bs4', 'lxml', 'html5lib', 'categories', 'programs', 'selenium', 'selenium.webdriver', 'selenium.webdriver.chrome', 'selenium.webdriver.chrome.options', 'selenium.webdriver.support', 'selenium.webdriver.common.by', 'selenium.webdriver.support.expected_conditions', 'urllib.robotparser', 'pathlib'],
+    hiddenimports=['bs4', 'categories', 'programs', 'selenium'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
@@ -19,20 +19,26 @@ pyz = PYZ(a.pure)
 exe = EXE(
     pyz,
     a.scripts,
-    a.binaries,
-    a.datas,
     [],
+    exclude_binaries=True,
     name='u-crawler',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
-    upx=False,
-    upx_exclude=[],
-    runtime_tmpdir=None,
+    upx=True,
     console=True,
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
+)
+coll = COLLECT(
+    exe,
+    a.binaries,
+    a.datas,
+    strip=False,
+    upx=True,
+    upx_exclude=[],
+    name='u-crawler',
 )

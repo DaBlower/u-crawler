@@ -1,6 +1,216 @@
 [
     {
         "category": "Engineering and Related Technologies",
+        "code": "4472",
+        "credits": "192 UOC",
+        "title": "Aeronautical Engineering (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4472"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "4476",
+        "credits": "192 UOC",
+        "title": "Aeronautical Engineering (Honours) (CDF)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4476"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "3980",
+        "credits": "144 UOC",
+        "title": "Aviation (Flying)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3980"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "3981",
+        "credits": "144 UOC",
+        "title": "Aviation (Management)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3981"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "3928",
+        "credits": "144 UOC",
+        "title": "Aviation (Remotely Piloted Aircraft Systems)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3928"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "4473",
+        "credits": "192 UOC",
+        "title": "Civil Engineering (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4473"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "4477",
+        "credits": "192 UOC",
+        "title": "Civil Engineering (Honours) (CDF)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4477"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "4490",
+        "credits": "144 UOC",
+        "title": "Cyber Security (Canberra City)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4490"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "3777",
+        "credits": "144 UOC",
+        "title": "Cyber Security (Sydney)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3777"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "4471",
+        "credits": "192 UOC",
+        "title": "Electrical Engineering (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4471"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "3761",
+        "credits": "288 UOC",
+        "title": "Advanced Mathematics (Honours) / Engineering (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3761"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "3762",
+        "credits": "288 UOC",
+        "title": "Advanced Science (Honours) / Engineering (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3762"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "3835",
+        "credits": "192 UOC",
+        "title": "Commerce / Aviation (Management)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3835"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "3961",
+        "credits": "264 UOC",
+        "title": "Engineering (Honours) / Arts",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3961"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "3768",
+        "credits": "240 UOC",
+        "title": "Engineering (Honours) / Biomedical Engineering",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3768"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "3764",
+        "credits": "264 UOC",
+        "title": "Engineering (Honours) / Commerce",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3764"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "3785",
+        "credits": "240 UOC",
+        "title": "Engineering (Honours) / Computer Science",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3785"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "3773",
+        "credits": "240 UOC",
+        "title": "Engineering (Honours) / Engineering Science",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3773"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "3765",
+        "credits": "312 UOC",
+        "title": "Engineering (Honours) / Law",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3765"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "3767",
+        "credits": "240 UOC",
+        "title": "Engineering (Honours) / Science",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3767"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "AEROAH",
+        "credits": "168 UOC",
+        "title": "Aerospace Engineering",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/AEROAH"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "ZEITSH",
+        "credits": "48 UOC",
+        "title": "Aviation",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/ZEITSH"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "AVIAAH",
+        "credits": "48 UOC",
+        "title": "Aviation",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/AVIAAH"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "BINFAH",
+        "credits": "168 UOC",
+        "title": "Bioinformatics Engineering",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/BINFAH"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "CEICAH",
+        "credits": "168 UOC",
+        "title": "Chemical Engineering",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/CEICAH"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "CEICDH",
+        "credits": "168 UOC",
+        "title": "Chemical Product Engineering",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/CEICDH"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "CVENAH",
+        "credits": "168 UOC",
+        "title": "Civil Engineering",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/CVENAH"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "COMPBH",
+        "credits": "168 UOC",
+        "title": "Computer Engineering",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/COMPBH"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "ELECAH",
+        "credits": "168 UOC",
+        "title": "Electrical Engineering",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/ELECAH"
+    },
+    {
+        "category": "Engineering and Related Technologies",
+        "code": "CVENBH",
+        "credits": "168 UOC",
+        "title": "Environmental Engineering",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/CVENBH"
+    },
+    {
+        "category": "Engineering and Related Technologies",
         "code": "AERO3110",
         "credits": "6 UOC",
         "title": "Aerospace Design 1",

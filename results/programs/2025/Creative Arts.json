@@ -1,6 +1,146 @@
 [
     {
         "category": "Creative Arts",
+        "code": "4516",
+        "credits": "48 UOC",
+        "title": "Art Theory (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4516"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "4825",
+        "credits": "144 UOC",
+        "title": "Design",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4825"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "4527",
+        "credits": "48 UOC",
+        "title": "Design (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4527"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "4830",
+        "credits": "144 UOC",
+        "title": "Fine Arts",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4830"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "4526",
+        "credits": "48 UOC",
+        "title": "Fine Arts (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4526"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "3341",
+        "credits": "144 UOC",
+        "title": "Media",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3341"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "4510",
+        "credits": "48 UOC",
+        "title": "Media (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4510"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "7005",
+        "credits": "48 UOC",
+        "title": "Media and Communication",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/7005"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "4528",
+        "credits": "48 UOC",
+        "title": "Media Arts (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4528"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "4508",
+        "credits": "48 UOC",
+        "title": "Music (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4508"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "3922",
+        "credits": "240 UOC",
+        "title": "Advanced Science (Honours) / Fine Arts",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3922"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "3597",
+        "credits": "192 UOC",
+        "title": "Commerce / Design",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3597"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "3599",
+        "credits": "192 UOC",
+        "title": "Commerce / Fine Arts",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3599"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "3598",
+        "credits": "192 UOC",
+        "title": "Commerce / Media",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3598"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "3792",
+        "credits": "192 UOC",
+        "title": "Computer Science / Fine Arts",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3792"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "4067",
+        "credits": "192 UOC",
+        "title": "Design / Education (Secondary)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4067"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "3342",
+        "credits": "192 UOC",
+        "title": "Design / Media",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3342"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "4831",
+        "credits": "192 UOC",
+        "title": "Fine Arts / Arts",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4831"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "4068",
+        "credits": "192 UOC",
+        "title": "Fine Arts / Education (Secondary)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4068"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "3793",
+        "credits": "264 UOC",
+        "title": "Fine Arts / Engineering (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3793"
+    },
+    {
+        "category": "Creative Arts",
         "code": "MDIADH",
         "credits": "48 UOC",
         "title": "Communication & Journalism",
@@ -61,5 +201,75 @@
         "credits": "48 UOC",
         "title": "Theatre & Perf Studies",
         "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/THSTBH"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "ADAD2610",
+        "credits": "6 UOC",
+        "title": "Art and Design for Environmental Challenges",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ADAD2610"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "ADAD3000",
+        "credits": "6 UOC",
+        "title": "Professional Experience Project",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ADAD3000"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "ADAD4020",
+        "credits": "6 UOC",
+        "title": "Art and Design in Practice",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ADAD4020"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "ADAD4100",
+        "credits": "6 UOC",
+        "title": "Honours Professional Experience Program",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ADAD4100"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "ARTS1060",
+        "credits": "6 UOC",
+        "title": "Introduction to Film Studies",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1060"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "ARTS1062",
+        "credits": "6 UOC",
+        "title": "Hollywood Film: Industry, Technology, Aesthetics",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1062"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "ARTS1064",
+        "credits": "6 UOC",
+        "title": "Screen Production I",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1064"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "ARTS1120",
+        "credits": "6 UOC",
+        "title": "Experiencing Theatre",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1120"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "ARTS1121",
+        "credits": "6 UOC",
+        "title": "Performance and Popular Culture",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1121"
+    },
+    {
+        "category": "Creative Arts",
+        "code": "ARTS1122",
+        "credits": "6 UOC",
+        "title": "Creativity",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/courses/2025/ARTS1122"
     }
 ]

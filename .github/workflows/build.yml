@@ -32,7 +32,7 @@ jobs:
           pip install pyinstaller
 
       - name: Build executable
-        run: pyinstaller --clean u-crawler.spec
+        run: pyinstaller --clean --noconfirm u-crawler.spec
 
       - name: Move build artifacts (Linux/macOS)
         if: runner.os != 'Windows'
