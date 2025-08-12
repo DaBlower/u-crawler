@@ -43,7 +43,7 @@ jobs:
       - name: Move build artifacts (Windows)
         if: runner.os == 'Windows'
         run: |
-          New-Item -ItemType Directory -Force -Path dist/${{ runner.os }}
+          New-Item -ItemType Directory -Force -Path dist/${{ runner.os }}-${{ runner.arch  }}
           Move-Item dist\u-crawler* dist\${{ runner.os }}-${{  runner.arch  }}\
 
       - name: Zip artifacts (Linux/macOS)
@@ -56,7 +56,7 @@ jobs:
         if: runner.os == 'Windows'
         run: |
           Compress-Archive -Path dist/${{ runner.os }}-${{  runner.arch  }}/* `
-                            -DestinationPath dist/u-crawler-${{ runner.os }}.zip
+                            -DestinationPath dist/u-crawler-${{ runner.os }}-${{  runner.arch  }}.zip
 
 
       - name: Upload artifact
