@@ -45,13 +45,13 @@ def run(debug):
     except Exception as e:
         logging.error(f"Failed to load categories.json - have you ran categories.py yet? {e}")
         print(f"ERROR: Failed to load categories.json - have you ran categories.py yet? (also if you are a SOM reviewer, please show the logs){e}")
-        exit(1)
+        sys.exit(1)
 
     # check if categories is empty
     if not categories:
         logging.error("No categories found in categories.json")
         print("ERROR: No categories found in categories.json (also if you are a SOM reviewer, please show the logs)")
-        exit(1)
+        sys.exit(1)
 
     # set headers
     headers = {'User-Agent': 'Mozilla/5.0'}
@@ -75,7 +75,7 @@ def run(debug):
         except Exception as e:
             logging.error(f"Failed to read robots.txt: {e}")
             print(f"ERROR: Unable to fetch robots.txt, check your connection (also if you are a SOM reviewer, please show the logs){e}")
-            exit(1)
+            sys.exit(1)
 
         if (rp.can_fetch(headers['User-Agent'], url)):
             logging.debug(f"Scraping of {url} permitted under Robots.txt")

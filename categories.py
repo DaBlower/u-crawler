@@ -36,7 +36,7 @@ def run(debug):
     except Exception as e:
         logging.error(f"Failed to read robots.txt: {e}")
         print("Unable to fetch robots.txt, check your connection")
-        exit(1)
+        sys.exit(1)
 
     if (rp.can_fetch(headers['User-Agent'], url)):
         logging.debug("Category scraping permitted under robots.txt")
@@ -47,7 +47,7 @@ def run(debug):
             logging.debug(f"Successfully fetched homepage: {url}")
         except requests.exceptions.RequestException as e:
             logging.error(f"Failed to fetch homepage: {e}")
-            exit(1)
+            sys.exit(1)
 
         # parse HTML
         soup = BeautifulSoup(response.text, 'html.parser')
