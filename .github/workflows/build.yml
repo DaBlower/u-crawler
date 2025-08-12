@@ -38,7 +38,7 @@ jobs:
         if: runner.os != 'Windows'
         run: |
           mkdir -p dist/${{ runner.os }}-${{ runner.arch  }}
-          mv dist/u-crawler* dist/${{ runner.os }}/
+          mv dist/u-crawler* dist/${{ runner.os }}-${{  runner.arch  }}/
 
       - name: Move build artifacts (Windows)
         if: runner.os == 'Windows'
