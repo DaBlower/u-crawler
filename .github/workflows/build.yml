@@ -37,14 +37,14 @@ jobs:
       - name: Move build artifacts (Linux/macOS)
         if: runner.os != 'Windows'
         run: |
-          mkdir -p dist/${{ runner.os }}
+          mkdir -p dist/${{ runner.os }}-${{ runner.arch  }}
           mv dist/u-crawler* dist/${{ runner.os }}/
 
       - name: Move build artifacts (Windows)
         if: runner.os == 'Windows'
         run: |
           New-Item -ItemType Directory -Force -Path dist/${{ runner.os }}
-          Move-Item dist\u-crawler* dist\${{ runner.os }}\
+          Move-Item dist\u-crawler* dist\${{ runner.os }}-${{  runner.arch  }}\
 
       - name: Zip artifacts (Linux/macOS)
         if: runner.os != 'Windows'
