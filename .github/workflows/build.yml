@@ -49,13 +49,13 @@ jobs:
       - name: Zip artifacts (Linux/macOS)
         if: runner.os != 'Windows'
         run: |
-          cd dist/${{ runner.os }}
-          zip -r ../u-crawler-${{ runner.os }}.zip .
+          cd dist/${{ runner.os }}-${{  runner.arch  }}
+          zip -r ../u-crawler-${{ runner.os }}-${{ runner.arch  }}.zip .
 
       - name: Zip artifacts (Windows)
         if: runner.os == 'Windows'
         run: |
-          Compress-Archive -Path dist/${{ runner.os }}/* `
+          Compress-Archive -Path dist/${{ runner.os }}-${{  runner.arch  }}/* `
                             -DestinationPath dist/u-crawler-${{ runner.os }}.zip
 
 
@@ -63,7 +63,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: build-${{ runner.os }}
-          path: dist/u-crawler-${{ runner.os }}.zip
+          path: dist/u-crawler-${{ runner.os }}-${{ runner.arch }}.zip
 
   release:
     name: Create GitHub Release
