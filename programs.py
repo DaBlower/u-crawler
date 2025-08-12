@@ -139,7 +139,7 @@ def run(debug):
     # save all results in a singular json
     try:
         # save results to json
-        with open(output_dir / 'programs.json', 'w') as file:
+        with open(output_dir / 'overall.json', 'w') as file:
             json.dump(all_programs, file, indent=4, ensure_ascii=False)
             logging.debug(f"Wrote all programs to programs.json successfully")
     except Exception as e:
