@@ -1,6 +1,76 @@
 [
     {
         "category": "Architecture and Building",
+        "code": "3261",
+        "credits": "144 UOC",
+        "title": "Architectural Studies",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3261"
+    },
+    {
+        "category": "Architecture and Building",
+        "code": "4521",
+        "credits": "48 UOC",
+        "title": "Architectural Studies (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4521"
+    },
+    {
+        "category": "Architecture and Building",
+        "code": "7006",
+        "credits": "48 UOC",
+        "title": "Architecture",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/7006"
+    },
+    {
+        "category": "Architecture and Building",
+        "code": "3362",
+        "credits": "192 UOC",
+        "title": "City Planning (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3362"
+    },
+    {
+        "category": "Architecture and Building",
+        "code": "4523",
+        "credits": "48 UOC",
+        "title": "Computational Design (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4523"
+    },
+    {
+        "category": "Architecture and Building",
+        "code": "3332",
+        "credits": "144 UOC",
+        "title": "Construction Management and Property",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3332"
+    },
+    {
+        "category": "Architecture and Building",
+        "code": "4522",
+        "credits": "48 UOC",
+        "title": "Construction Management and Property (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4522"
+    },
+    {
+        "category": "Architecture and Building",
+        "code": "4525",
+        "credits": "48 UOC",
+        "title": "Industrial Design (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4525"
+    },
+    {
+        "category": "Architecture and Building",
+        "code": "3256",
+        "credits": "192 UOC",
+        "title": "Interior Architecture (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3256"
+    },
+    {
+        "category": "Architecture and Building",
+        "code": "3381",
+        "credits": "192 UOC",
+        "title": "Landscape Architecture (Hons)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3381"
+    },
+    {
+        "category": "Architecture and Building",
         "code": "ARCH0006",
         "credits": "6 UOC",
         "title": "Special Program (Architecture)",

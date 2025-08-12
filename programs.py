@@ -131,7 +131,7 @@ def run(debug):
             time.sleep(delay)
         else:
             logging.WARN(f"Skipped {url} due to robots.txt restrictions")
-            print(f"WARNING: Skipped {name} due to robots.txt restrictions")
+            print(f"WARNING: whoops, skipped {name} due to robots.txt restrictions (make a github issue please)")
 
     output_dir = Path("results/programs/2025")
     output_dir.mkdir(parents=True, exist_ok=True)

@@ -1,6 +1,76 @@
 [
     {
         "category": "Business and Management",
+        "code": "3586",
+        "credits": "144 UOC",
+        "title": "Actuarial Studies",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3586"
+    },
+    {
+        "category": "Business and Management",
+        "code": "3587",
+        "credits": "192 UOC",
+        "title": "Actuarial Studies (Co op)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3587"
+    },
+    {
+        "category": "Business and Management",
+        "code": "4520",
+        "credits": "48 UOC",
+        "title": "Actuarial Studies (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4520"
+    },
+    {
+        "category": "Business and Management",
+        "code": "3928",
+        "credits": "144 UOC",
+        "title": "Aviation (Remotely Piloted Aircraft Systems)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3928"
+    },
+    {
+        "category": "Business and Management",
+        "code": "7004",
+        "credits": "54 UOC",
+        "title": "Business",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/7004"
+    },
+    {
+        "category": "Business and Management",
+        "code": "4405",
+        "credits": "144 UOC",
+        "title": "Business",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4405"
+    },
+    {
+        "category": "Business and Management",
+        "code": "4462",
+        "credits": "144 UOC",
+        "title": "Business (CDF)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4462"
+    },
+    {
+        "category": "Business and Management",
+        "code": "4512",
+        "credits": "48 UOC",
+        "title": "Business (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4512"
+    },
+    {
+        "category": "Business and Management",
+        "code": "3502",
+        "credits": "144 UOC",
+        "title": "Commerce",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3502"
+    },
+    {
+        "category": "Business and Management",
+        "code": "3554",
+        "credits": "192 UOC",
+        "title": "Commerce (Co-op)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3554"
+    },
+    {
+        "category": "Business and Management",
         "code": "ACCT2101",
         "credits": "12 UOC",
         "title": "Industry Placement 1",

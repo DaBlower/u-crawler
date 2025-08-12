@@ -1,6 +1,76 @@
 [
     {
         "category": "Humanities and Law",
+        "code": "4400",
+        "credits": "144 UOC",
+        "title": "Arts",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4400"
+    },
+    {
+        "category": "Humanities and Law",
+        "code": "3409",
+        "credits": "144 UOC",
+        "title": "Arts",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3409"
+    },
+    {
+        "category": "Humanities and Law",
+        "code": "4504",
+        "credits": "48 UOC",
+        "title": "Arts & Social Sciences (Hons)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4504"
+    },
+    {
+        "category": "Humanities and Law",
+        "code": "4461",
+        "credits": "144 UOC",
+        "title": "Arts (CDF)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4461"
+    },
+    {
+        "category": "Humanities and Law",
+        "code": "4511",
+        "credits": "48 UOC",
+        "title": "Arts (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4511"
+    },
+    {
+        "category": "Humanities and Law",
+        "code": "4519",
+        "credits": "48 UOC",
+        "title": "Arts (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4519"
+    },
+    {
+        "category": "Humanities and Law",
+        "code": "3928",
+        "credits": "144 UOC",
+        "title": "Aviation (Remotely Piloted Aircraft Systems)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3928"
+    },
+    {
+        "category": "Humanities and Law",
+        "code": "3422",
+        "credits": "144 UOC",
+        "title": "Criminology & Criminal Justice",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3422"
+    },
+    {
+        "category": "Humanities and Law",
+        "code": "4505",
+        "credits": "48 UOC",
+        "title": "Criminology (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/4505"
+    },
+    {
+        "category": "Humanities and Law",
+        "code": "3543",
+        "credits": "144 UOC",
+        "title": "Economics",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3543"
+    },
+    {
+        "category": "Humanities and Law",
         "code": "ASIABH",
         "credits": "48 UOC",
         "title": "Asian Studies",

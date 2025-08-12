@@ -1,6 +1,216 @@
 [
     {
         "category": "Natural and Physical Sciences",
+        "code": "3956",
+        "credits": "192 UOC",
+        "title": "Advanced Mathematics (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3956"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3962",
+        "credits": "192 UOC",
+        "title": "Advanced Science (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3962"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3928",
+        "credits": "144 UOC",
+        "title": "Aviation (Remotely Piloted Aircraft Systems)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3928"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3053",
+        "credits": "192 UOC",
+        "title": "Biotechnology (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3053"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3959",
+        "credits": "144 UOC",
+        "title": "Data Science and Decisions",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3959"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3965",
+        "credits": "144 UOC",
+        "title": "Environmental Management",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3965"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3061",
+        "credits": "192 UOC",
+        "title": "Food Science (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3061"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3991",
+        "credits": "144 UOC",
+        "title": "Medical Science",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3991"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3999",
+        "credits": "192 UOC",
+        "title": "Medicinal Chemistry (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3999"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3435",
+        "credits": "144 UOC",
+        "title": "Psychological Science",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3435"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3589",
+        "credits": "240 UOC",
+        "title": "Actuarial Studies / Advanced Mathematics (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3589"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3154",
+        "credits": "192 UOC",
+        "title": "Actuarial Studies / Science",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3154"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3949",
+        "credits": "240 UOC",
+        "title": "Advanced Mathematics (Honours) / Arts",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3949"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3523",
+        "credits": "240 UOC",
+        "title": "Advanced Mathematics (Honours) / Commerce",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3523"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3781",
+        "credits": "240 UOC",
+        "title": "Advanced Mathematics (Honours) / Computer Science",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3781"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3761",
+        "credits": "288 UOC",
+        "title": "Advanced Mathematics (Honours) / Engineering (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3761"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3998",
+        "credits": "288 UOC",
+        "title": "Advanced Mathematics (Honours) / Law",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3998"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3948",
+        "credits": "240 UOC",
+        "title": "Advanced Science (Honours) / Arts",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3948"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3782",
+        "credits": "240 UOC",
+        "title": "Advanced Science (Honours) / Computer Science",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3782"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "3762",
+        "credits": "288 UOC",
+        "title": "Advanced Science (Honours) / Engineering (Honours)",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/programs/2025/3762"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "SOMSEH",
+        "credits": "48 UOC",
+        "title": "Anatomy",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/SOMSEH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "MATHAH",
+        "credits": "48 UOC",
+        "title": "Applied Mathematics",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/MATHAH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "BABSBH",
+        "credits": "48 UOC",
+        "title": "Bioinformatics",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/BABSBH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "BIOSKH",
+        "credits": "48 UOC",
+        "title": "Biology",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/BIOSKH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "BIOTBH",
+        "credits": "48 UOC",
+        "title": "Biotechnology",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/BIOTBH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "ZPEMAH",
+        "credits": "48 UOC",
+        "title": "Chemistry",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/ZPEMAH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "CHEMFH",
+        "credits": "48 UOC",
+        "title": "Chemistry",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/CHEMFH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "BIOSLH",
+        "credits": "48 UOC",
+        "title": "Ecology",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/BIOSLH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "ENVSUH",
+        "credits": "48 UOC",
+        "title": "Environmental Management",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/ENVSUH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
+        "code": "FOODKH",
+        "credits": "180 UOC",
+        "title": "Food Science and Nutrition",
+        "url": "https://www.handbook.unsw.edu.au/undergraduate/specialisations/2025/FOODKH"
+    },
+    {
+        "category": "Natural and Physical Sciences",
         "code": "ACTL2102",
         "credits": "6 UOC",
         "title": "Foundations of Actuarial Models",
