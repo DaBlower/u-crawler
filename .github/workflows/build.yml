@@ -46,7 +46,7 @@ jobs:
       - name: Install dependencies (Linux ARM64 specific)
         if: runner.os == 'Linux' && runner.arch == 'ARM64'
         run: |
-          apt-get update && apt-get install -y binutils
+          apt-get update && apt-get install -y binutils && apt-get install -y zip
 
       - name: Build executable
         run: pyinstaller --clean --noconfirm u-crawler.spec
