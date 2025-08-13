@@ -15,12 +15,24 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest, ubuntu-24.04-arm]
+        include:
+          - os: ubuntu-latest
+            label: Linux-X64
+          - os: windows-latest
+            label: Windows-X64
+          - os: macos-latest
+            label: macos-ARM64
+          - os: ubuntu-24.04-arm
+            label: Linux-ARM64
+            container: python:3.11-slim-bookworm # support older versions of glibc (aka my raspi on bookworm)
+
+    container: ${{  matrix.container  }}
 
     steps:
       - uses: actions/checkout@v3
 
       - name: Set up Python
+        if: matrix.container == '' # python:3.11-slim-bookworm already has python 
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
