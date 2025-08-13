@@ -42,6 +42,11 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
           pip install pyinstaller
+          
+      - name: Install dependencies (Linux ARM64 specific)
+        if: runner.os == 'Linux' && runner.arch == 'ARM64'
+        run: |
+          sudo apt-get update && sudo apt-get install binutils
 
       - name: Build executable
         run: pyinstaller --clean --noconfirm u-crawler.spec
